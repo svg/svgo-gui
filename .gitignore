@@ -1,0 +1,6 @@
+svgo-gui.app/Contents/Frameworks
+svgo-gui.app/Contents/MacOS
+svgo-gui.app/Contents/PkgInfo
+svgo-gui.app/Contents/Resources/app.nw/node_modules
+app.nw
+*.sublime-*

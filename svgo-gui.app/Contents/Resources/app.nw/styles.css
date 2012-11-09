@@ -1,0 +1,13 @@
+body {
+    margin: 0; padding: 10px;
+}
+
+#holder {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px dashed #ccc;
+}
+#holder.hover {
+    border-color: #aaa;
+}
