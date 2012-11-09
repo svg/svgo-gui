@@ -4,7 +4,7 @@
 
 Mac OS X app only in this very first test version.
 
-![screenshot](https://raw.github.com/svg/svgo/master/screenshot.png)
+![screenshot](https://raw.github.com/svg/svgo-gui/master/screenshot.png)
 
 ## Download
 
