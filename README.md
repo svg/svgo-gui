@@ -18,7 +18,7 @@ Mac OS X app only in this very first test version.
 
 ## TODO
 
-1. multiply files drag-n-drop
+1. multiple files drag-n-drop
 2. information about file size profit and time
 3. icon
 4. Windows version
