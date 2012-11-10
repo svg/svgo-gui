@@ -1,36 +1,31 @@
 {
-    "name": "svgo-gui",
-    "version": "0.0.2",
-    "description": "Node-WebKit based GUI for SVGO - tool for optimizing SVG vector graphics files",
-    "keywords": [
-        "svgo",
-        "svg",
-        "optimize",
-        "minify"
-    ],
-    "maintainers":[{
-        "name": "Kir Belevich",
-        "email": "kir@soulshine.in",
-        "web": "https://github.com/svg"
-    }],
-    "repositories": [{
-        "type": "git",
-        "url": "git://github.com/svg/svgo-gui.git"
-    }],
-    "bugs": "https://github.com/svg/svgo-gui/issues",
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://raw.github.com/svg/svgo-gui/master/LICENSE"
-    }],
-    "dependencies": {
-      "svgo": "git://github.com/svg/svgo.git"
-    },
-    "main": "index.html",
-    "window": {
-        "toolbar": false,
-        "resizable": false,
-        "fullscreen": false,
-        "width": 240,
-        "height": 240
-    }
+  "name": "svgo-gui",
+  "version": "0.0.2",
+  "description": "Node-WebKit based GUI for SVGO - tool for optimizing SVG vector graphics files",
+  "keywords": [ "svgo", "svg", "optimize", "minify" ],
+  "maintainers":[{
+    "name": "Kir Belevich",
+    "email": "kir@soulshine.in",
+    "web": "https://github.com/svg"
+  }],
+  "repositories": [{
+    "type": "git",
+    "url": "git://github.com/svg/svgo-gui.git"
+  }],
+  "bugs": "https://github.com/svg/svgo-gui/issues",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/svg/svgo-gui/master/LICENSE"
+  }],
+  "dependencies": {
+    "svgo": "git://github.com/svg/svgo.git"
+  },
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "resizable": false,
+    "fullscreen": false,
+    "width": 240,
+    "height": 240
+  }
 }
