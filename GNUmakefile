@@ -1,4 +1,5 @@
 NODE-WEBKIT = 0.3.2
+SVGO = git://github.com/svg/svgo.git
 
 .PHONY: osx
 osx:
@@ -17,7 +18,7 @@ osx:
 	@ln -f osx/app.icns svgo-gui.app/Contents/Resources/app.icns
 	@ln -f osx/Info.plist svgo-gui.app/Contents/Info.plist
 	@echo installing svgo module…
-	@npm install --silent git://github.com/svg/svgo.git &>/dev/null
+	@npm install --silent ${SVGO} &>/dev/null
 	@mv node_modules svgo-gui.app/Contents/Resources/app.nw/
 	@echo done!
 	@echo svgo-gui.app is ready, changes in ./app.nw/ will affect it.
