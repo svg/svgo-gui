@@ -22,6 +22,9 @@
         "type": "MIT",
         "url": "https://raw.github.com/svg/svgo-gui/master/LICENSE"
     }],
+    "dependencies": {
+      "svgo": "git://github.com/svg/svgo.git"
+    },
     "main": "index.html",
     "window": {
         "toolbar": false,
