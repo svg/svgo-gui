@@ -1,0 +1,25 @@
+{
+    "globals": {
+        "phantom": false,
+        "describe": false,
+        "before": false,
+        "it": false
+    },
+    "node": true,
+    "browser": true,
+    "strict": false,
+    "curly": false,
+    "camelcase": true,
+    "eqeqeq": true,
+    "forin": false,
+    "immed": true,
+    "multistr": true,
+    "newcap": true,
+    "nonew": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true,
+    "loopfunc": true,
+    "trailing": true,
+    "es5": true
+}
