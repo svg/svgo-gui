@@ -2,7 +2,7 @@
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
-![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/osx.png) ![Windows 7 screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/win7.png)
+![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/osx.png)&nbsp;&nbsp;&nbsp;![Windows 7 screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/win7.png)
 
 ## Download
 
