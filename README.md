@@ -24,3 +24,7 @@ Mac OS X app only in this very first test version.
 4. Windows version
 5. Linux version
 6. …
+
+## License
+
+This software is released under the terms of the [MIT license](https://github.com/svg/svgo-gui/blob/master/LICENSE).
