@@ -42,10 +42,9 @@
 
 ## TODO
 
-1. icon
-2. Linux version
-3. Linux how-to
-4. …
+* [v0.0.4](https://github.com/svg/svgo-gui/issues?milestone=1&state=open)
+* [v0.0.5](https://github.com/svg/svgo-gui/issues?milestone=2&state=open)
+* [v0.0.6](https://github.com/svg/svgo-gui/issues?milestone=3&state=open)
 
 ## License
 
