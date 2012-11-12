@@ -10,7 +10,7 @@
 * Windows [svgo-gui-win-ia32.7z](https://dl.dropbox.com/s/mivu4wjnggd7d6w/svgo-gui-win-ia32.7z?dl=1) (14.68 MiB)
 * Linux - coming soon
 
-## How to build and contribute
+## How to contribute and build
 
 ### Mac OS X
 
