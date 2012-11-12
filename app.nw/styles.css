@@ -64,6 +64,10 @@ html {
     white-space: nowrap;
 }
 
+.item_error_yes {
+    background: #ff8f8f;
+}
+
 .item__cell {
     padding: 8px 10px;
     white-space: nowrap;

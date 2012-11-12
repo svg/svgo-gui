@@ -76,6 +76,11 @@
                             );
 
                         })
+                        .fail(function(e) {
+                            tr.classList.add('item_error_yes');
+                            tr.setAttribute('title', e);
+                            profit.appendChild(document.createTextNode('error'));
+                        })
                         .done();
 
                 })(file.path, before, after, profit);
