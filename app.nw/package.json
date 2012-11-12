@@ -23,9 +23,11 @@
   "main": "index.html",
   "window": {
     "toolbar": false,
-    "resizable": false,
+    "resizable": true,
     "fullscreen": false,
-    "width": 240,
-    "height": 240
+    "width": 380,
+    "min_width": 380,
+    "height": 280,
+    "min_height": 280
   }
 }

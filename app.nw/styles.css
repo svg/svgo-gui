@@ -1,13 +1,81 @@
-body {
-    margin: 0; padding: 10px;
+html {
+    height: 100%;
 }
 
-#holder {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border: 10px dashed #ccc;
+.page {
+    background-color: #fefefe;
+    /* http://cssfontstack.com/ */
+    font: 14px 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
 }
-#holder.hover {
-    border-color: #aaa;
+
+.page_layout_list {
+    /* http://lea.verou.me/css3patterns/#horizontal-stripes */
+    background-image: -webkit-linear-gradient(transparent 50%, #eee 50%);
+    background-size: 66px 66px;
+}
+
+.holder {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 8px dashed #ddd;
+    -webkit-transition: border-color .2s linear;
+}
+
+.page_layout_list .holder {
+    display: none;
+}
+
+.holder_state_hover {
+    border-color: #bbb;
+}
+
+.holder__call {
+    font-size: 24px;
+    line-height: 32px;
+    color: #bbb;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.page_layout_holder .list {
+    display: none;
+}
+
+.list__header {
+    text-align: left;
+}
+
+.list__header {
+    padding: 0 10px 8px;
+    white-space: nowrap;
+}
+
+.item__cell {
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+.item__cell_type_name {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list__header_type_profit,
+.item__cell_type_profit {
+    text-align: right;
 }

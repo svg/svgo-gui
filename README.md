@@ -1,13 +1,13 @@
-## SVGO GUI v0.0.2
+## SVGO GUI v0.0.3
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
-![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/osx.png)&nbsp;&nbsp;&nbsp;![Windows 7 screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/win7.png)
+![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/1.png)&nbsp;&nbsp;![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/2.png)
 
 ## Download
 
-* Mac OS X [svgo-gui-osx.7z](https://dl.dropbox.com/s/ndtabc5j1dpngvc/svgo-gui-osx.7z?dl=1) (16.44 MiB)
-* Windows [svgo-gui-win32.exe](https://dl.dropbox.com/s/zsthabuosy32g1y/svgo-gui-win32.exe?dl=1) (15.53 MiB)
+* Mac OS X [svgo-gui-osx-ia32.7z](https://dl.dropbox.com/s/kk2oaclxnrtyvle/svgo-gui-osx-ia32.7z?dl=1) (16.44 MiB)
+* Windows [svgo-gui-win-ia32.7z](https://dl.dropbox.com/s/mivu4wjnggd7d6w/svgo-gui-win-ia32.7z?dl=1) (14.68 MiB)
 * Linux - coming soon
 
 ## How to build and contribute
@@ -16,11 +16,25 @@
 
 1. `cd <YOUR FORK>`
 2. `make osx`
-3. changes in `./app.nw/` will affect `svgo-gui.app`
+3. changes in `./app.nw/` will automatically affect `svgo-gui.app`
 
 ### Windows
 
-1. coming soon
+#### contribute
+
+1. `cd <YOUR FORK>`
+2. make changes in `./app.nw/`
+3. `cd app.nw`
+4. `npm install`
+5. `cd ..`
+6. download and unpack `http://s3.amazonaws.com/node-webkit/v0.3.3/node-webkit-v0.3.3-win-ia32.zip` here
+7. drag-n-drop `app.nw` folder on `nw.exe` to run svgo application
+
+#### build
+
+1. create a zip archive from `./app.nw` folder (better with `store` compression settings)
+2. `copy /b nw.exe+app.nw svgo-gui.exe`
+3. `nw.pak` + `icudt.dll` must be shipped along with `svgo-gui.exe`
 
 ### Linux
 
@@ -28,13 +42,10 @@
 
 ## TODO
 
-1. multiple files drag-n-drop
-2. information about file size profit and time
-3. icon
-4. Windows how-to
-5. Linux version
-6. Linux how-to
-7. …
+1. icon
+2. Linux version
+3. Linux how-to
+4. …
 
 ## License
 
