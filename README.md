@@ -6,8 +6,8 @@
 
 ## Download
 
-* Mac OS X [svgo-gui-osx-ia32.7z](http://is.gd/siwege) (16.44 MiB)
-* Windows [svgo-gui-win-ia32.7z](http://is.gd/ozediz) (14.68 MiB)
+* Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (16.44 MiB)
+* Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.68 MiB)
 * Linux - coming soon
 
 ## How to contribute and build
