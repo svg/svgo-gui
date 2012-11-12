@@ -1,5 +1,5 @@
 ### [ [>](//github.com/svg/svgo-gui/tree/v0.0.3) ] 0.0.3 / 12.11.2012
-* Node-WebKit v0.0.3
+* Node-WebKit v0.3.3
 * multiple files drag-n-drop
 * information about file size profit
 * table-layout redesign

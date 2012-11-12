@@ -28,7 +28,7 @@
 4. `npm install`
 5. `cd ..`
 6. download and unpack `http://s3.amazonaws.com/node-webkit/v0.3.3/node-webkit-v0.3.3-win-ia32.zip` here
-7. drag-n-drop `app.nw` folder on `nw.exe` to run svgo application
+7. drag-n-drop `app.nw` folder on `nw.exe` to run svgo-gui application
 
 #### build
 
