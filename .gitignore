@@ -1,5 +1,7 @@
-svgo-gui.app/
-svgo-gui.exe
+app.nw/app.nw
 app.nw/node_modules
-*.svg
 *.sublime-*
+*.svg
+*.7z
+*.exe
+*.app

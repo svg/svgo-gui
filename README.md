@@ -1,4 +1,4 @@
-## SVGO GUI v0.0.3
+## SVGO GUI v0.0.4
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
@@ -6,8 +6,8 @@
 
 ## Download
 
-* Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (16.44 MiB)
-* Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.68 MiB)
+* Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (17.34 MiB)
+* Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.8 MiB)
 * Linux - coming soon
 
 ## How to contribute and build
@@ -27,7 +27,7 @@
 3. `cd app.nw`
 4. `npm install`
 5. `cd ..`
-6. download and unpack `http://s3.amazonaws.com/node-webkit/v0.3.3/node-webkit-v0.3.3-win-ia32.zip` here
+6. download and unpack `http://s3.amazonaws.com/node-webkit/node-webkit-latest-win-ia32.zip` here
 7. drag-n-drop `app.nw` folder on `nw.exe` to run svgo-gui application
 
 #### build
@@ -42,7 +42,6 @@
 
 ## TODO
 
-* [v0.0.4](https://github.com/svg/svgo-gui/issues?milestone=1&state=open)
 * [v0.0.5](https://github.com/svg/svgo-gui/issues?milestone=2&state=open)
 * [v0.0.6](https://github.com/svg/svgo-gui/issues?milestone=3&state=open)
 

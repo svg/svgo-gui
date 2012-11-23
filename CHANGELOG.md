@@ -1,3 +1,8 @@
+### [ [>](//github.com/svg/svgo-gui/tree/v0.0.4) ] 0.0.4 / 12.11.2012
+* Node-WebKit v0.3.4
+* SVGO v0.1.0
+* OSX app.icns
+
 ### [ [>](//github.com/svg/svgo-gui/tree/v0.0.3) ] 0.0.3 / 12.11.2012
 * Node-WebKit v0.3.3
 * multiple files drag-n-drop
