@@ -2,6 +2,10 @@
 * Node-WebKit v0.3.4
 * SVGO v0.1.0
 * OSX app.icns
+* catch and show errors (fix [#1](https://github.com/svg/svgo-gui/issues/1))
+* rename table header 'name' to 'file'
+* README: update TODO section with versions milestones
+* README: shorten urls for statistics logs
 
 ### [ [>](//github.com/svg/svgo-gui/tree/v0.0.3) ] 0.0.3 / 12.11.2012
 * Node-WebKit v0.3.3
