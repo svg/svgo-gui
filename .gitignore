@@ -2,8 +2,11 @@ app.nw/app.nw
 app.nw/node_modules
 win/
 linux/
+npm-debug.log
 *.sublime-*
 *.svg
 *.7z
+*.tar.gz
+*.zip
 *.exe
 *.app
