@@ -5,7 +5,7 @@
 
 ![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/1.png)&nbsp;&nbsp;![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/2.png)
 
-## Download
+## Download and use
 
 * Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (17.34 MiB)
 * Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.8 MiB)
@@ -46,6 +46,6 @@
 * [v0.0.5](https://github.com/svg/svgo-gui/issues?milestone=2&state=open)
 * [v0.0.6](https://github.com/svg/svgo-gui/issues?milestone=3&state=open)
 
-## License
+## License and copyrights
 
 This software is released under the terms of the [MIT license](https://github.com/svg/svgo-gui/blob/master/LICENSE).
