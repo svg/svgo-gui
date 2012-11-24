@@ -18,7 +18,7 @@
     "url": "https://raw.github.com/svg/svgo-gui/master/LICENSE"
   }],
   "dependencies": {
-    "svgo": "0.1.0"
+    "svgo": "~0.1.2"
   },
   "main": "index.html",
   "window": {
