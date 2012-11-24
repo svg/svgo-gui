@@ -61,17 +61,17 @@
 
                             before.appendChild(
                                 document.createTextNode(
-                                    Math.round((min.info.startBytes / 1024) * 1000) / 1000 + ' KiB'
+                                    Math.round((min.info.inBytes / 1024) * 1000) / 1000 + ' KiB'
                                 )
                             );
                             after.appendChild(
                                 document.createTextNode(
-                                    Math.round((min.info.endBytes / 1024) * 1000) / 1000 + ' KiB'
+                                    Math.round((min.info.outBytes / 1024) * 1000) / 1000 + ' KiB'
                                 )
                             );
                             profit.appendChild(
                                 document.createTextNode(
-                                    Math.round((100 - min.info.endBytes * 100 / min.info.startBytes) * 10) /  10 + '%'
+                                    Math.round((100 - min.info.outBytes * 100 / min.info.inBytes) * 10) /  10 + '%'
                                 )
                             );
 
