@@ -34,6 +34,18 @@
 			<key>LSHandlerRank</key>
 			<string>None</string>
 		</dict>
+		<dict>
+			 <key>CFBundleTypeName</key>
+			 <string>SVG</string>
+			 <key>CFBundleTypeRole</key>
+			 <string>Editor</string>
+			 <key>LSHandlerRank</key>
+			 <string>Alternate</string>
+			 <key>LSItemContentTypes</key>
+			 <array>
+				 <string>public.svg-image</string>
+			 </array>
+		 </dict>
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>node-webkit</string>
@@ -86,6 +98,29 @@
 				</array>
 				<key>public.mime-type</key>
 				<string>application/x-node-webkit-app</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>public.svg-image</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://www.w3.org/</string>
+			<key>UTTypeDescription</key>
+			<string>Scalable Vector Image Format</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<string>svg</string>
+				<key>public.filename-extension</key>
+				<array>
+					<string>svg</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>image/svg+xml</string>
 			</dict>
 		</dict>
 	</array>

@@ -1,12 +1,39 @@
-(function() {
+(function(doc) {
 
     var FS = require('fs'),
+        GUI = require('nw.gui'),
         SVGO = require('svgo'),
         svgo = new SVGO(),
-        body = document.body,
-        holder = document.querySelector('.holder'),
-        list = document.querySelector('.list'),
+        body = doc.body,
+        holder = doc.querySelector('.holder'),
+        list = doc.querySelector('.list'),
         regSVGFile = /\.svg$/;
+
+    // send files to the not already running app
+    // ("Open With" or drag-n-drop)
+    if (GUI.App.argv.length) {
+
+        var files = GUI.App.argv.map(function(path) {
+            return {
+                name: path.substring(path.lastIndexOf('/') + 1),
+                path: path
+            };
+        });
+
+        onFilesDrop(files);
+
+    }
+
+    // send files to the already running app
+    // ("Open With" or drag-n-drop)
+    GUI.App.on('open', function(path) {
+
+        onFilesDrop([{
+            name: path.substring(path.lastIndexOf('/') + 1),
+            path: path
+        }]);
+
+    });
 
     body.ondragover = function() {
 
@@ -21,24 +48,34 @@
 
     };
 
+    // drag-n-drop files to the app window's special holder
     body.ondrop = function(e) {
 
-        var files = [].slice.call(e.dataTransfer.files),
-            docFragment = document.createDocumentFragment();
+        var files = [].slice.call(e.dataTransfer.files);
+
+        onFilesDrop(files);
+
+        e.preventDefault();
+
+    };
+
+    function onFilesDrop(files) {
+
+        var docFragment = doc.createDocumentFragment();
 
         files.forEach(function(file) {
 
             if (regSVGFile.test(file.name)) {
 
-                var tr = document.createElement('tr'),
-                    name = document.createElement('td'),
-                    before = document.createElement('td'),
-                    after = document.createElement('td'),
-                    profit = document.createElement('td');
+                var tr = doc.createElement('tr'),
+                    name = doc.createElement('td'),
+                    before = doc.createElement('td'),
+                    after = doc.createElement('td'),
+                    profit = doc.createElement('td');
 
                 tr.className = 'item';
                 name.className = 'item__cell item__cell_type_name';
-                name.appendChild(document.createTextNode(file.name));
+                name.appendChild(doc.createTextNode(file.name));
                 before.className = 'item__cell item__cell_type_before';
                 after.className = 'item__cell item__cell_type_after';
                 profit.className = 'item__cell item__cell_type_profit';
@@ -60,17 +97,17 @@
                             output.end();
 
                             before.appendChild(
-                                document.createTextNode(
+                                doc.createTextNode(
                                     Math.round((min.info.inBytes / 1024) * 1000) / 1000 + ' KiB'
                                 )
                             );
                             after.appendChild(
-                                document.createTextNode(
+                                doc.createTextNode(
                                     Math.round((min.info.outBytes / 1024) * 1000) / 1000 + ' KiB'
                                 )
                             );
                             profit.appendChild(
-                                document.createTextNode(
+                                doc.createTextNode(
                                     Math.round((100 - min.info.outBytes * 100 / min.info.inBytes) * 10) /  10 + '%'
                                 )
                             );
@@ -79,7 +116,7 @@
                         .fail(function(e) {
                             tr.classList.add('item_error_yes');
                             tr.setAttribute('title', e);
-                            profit.appendChild(document.createTextNode('error'));
+                            profit.appendChild(doc.createTextNode('error'));
                         })
                         .done();
 
@@ -101,8 +138,6 @@
 
         }
 
-        e.preventDefault();
+    }
 
-    };
-
-})();
+})(document);
