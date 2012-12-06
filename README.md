@@ -1,4 +1,4 @@
-## SVGO GUI v0.0.5
+## SVGO GUI v0.0.6
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 ![](//mc.yandex.ru/watch/18431371)
@@ -15,7 +15,7 @@
 
 ## TODO
 
-* [v0.0.6](https://github.com/svg/svgo-gui/issues?milestone=3&state=open)
+* [v0.0.7](https://github.com/svg/svgo-gui/issues?milestone=4&state=open)
 
 ## License and copyrights
 

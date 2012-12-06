@@ -1,3 +1,9 @@
+### [ [>](//github.com/svg/svgo-gui/tree/v0.0.6) ] 0.0.6 / 06.12.2012
+* handle drag-n-droped files and argv (close [#8](https://github.com/svg/svgo-gui/issues/8))
+* brand-new project icon (close [#9](https://github.com/svg/svgo-gui/issues/9))
+* Node-WebKit v0.3.5
+* update `.jshintrc`
+
 ### [ [>](//github.com/svg/svgo-gui/tree/v0.0.5) ] 0.0.5 / 24.11.2012
 * add Linux build (close [#3](https://github.com/svg/svgo-gui/issues/3))
 * add Linux how-to (close [#3](https://github.com/svg/svgo-gui/issues/4))
