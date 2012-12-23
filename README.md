@@ -7,8 +7,8 @@
 
 ## Download and use
 
-* Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (17.57 MiB)
-* Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.47 MiB)
+* Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B) (17.59 MiB)
+* Windows [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL) (14.48 MiB)
 * Linux – need a maintainer
 
 ## [How to contribute and build](https://github.com/svg/svgo-gui/blob/master/docs/how-to-contribute-and-build/en.md)
