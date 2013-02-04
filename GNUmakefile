@@ -1,4 +1,4 @@
-NODE-WEBKIT=v0.3.6
+NODE-WEBKIT=v0.4.1
 
 .PHONY: osx
 osx:
