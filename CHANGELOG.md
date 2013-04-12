@@ -1,3 +1,7 @@
+### [ [>](//github.com/svg/svgo-gui/tree/v0.0.7) ] 0.0.7 / 12.04.2013
+* SVGO v0.3.0
+* Node-WebKit v0.4.2
+
 ### [ [>](//github.com/svg/svgo-gui/tree/v0.0.6) ] 0.0.6 / 06.12.2012
 * handle drag-n-droped files and argv (close [#8](https://github.com/svg/svgo-gui/issues/8))
 * brand-new project icon (close [#9](https://github.com/svg/svgo-gui/issues/9))

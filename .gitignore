@@ -10,3 +10,5 @@ npm-debug.log
 *.zip
 *.exe
 *.app
+.DS_Store
+win
