@@ -1,7 +1,6 @@
 ## SVGO GUI v0.0.7
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
-![](//mc.yandex.ru/watch/18431371)
 
 ![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/1.png)&nbsp;&nbsp;![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/2.png)
 
