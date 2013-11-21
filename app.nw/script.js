@@ -3,7 +3,8 @@
     var FS = require('fs'),
         GUI = require('nw.gui'),
         SVGO = require('svgo'),
-        svgo = new SVGO(),
+        // Removing the view box causes scaling issues in IE
+        svgo = new SVGO({plugins:[{removeViewBox:false}]}),
         body = doc.body,
         holder = doc.querySelector('.holder'),
         list = doc.querySelector('.list'),
