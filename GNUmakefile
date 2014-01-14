@@ -1,4 +1,4 @@
-NODE-WEBKIT=v0.6.1
+NODE-WEBKIT=v0.8.4
 
 .PHONY: osx
 osx:
@@ -7,7 +7,7 @@ osx:
 	@curl -sSO http://s3.amazonaws.com/node-webkit/${NODE-WEBKIT}/node-webkit-${NODE-WEBKIT}-osx-ia32.zip
 	@echo unpacking, renaming and copying files…
 	@unzip -qq node-webkit-${NODE-WEBKIT}-osx-ia32.zip
-	@rm node-webkit-${NODE-WEBKIT}-osx-ia32.zip nwsnapshot
+	@rm node-webkit-${NODE-WEBKIT}-osx-ia32.zip nwsnapshot credits.html
 	@mv node-webkit.app osx/svgo-gui.app
 	@mkdir osx/svgo-gui.app/Contents/Resources/app.nw/
 	@ln app.nw/index.html osx/svgo-gui.app/Contents/Resources/app.nw/index.html

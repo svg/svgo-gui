@@ -1,6 +1,6 @@
 {
   "name": "svgo-gui",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Node-WebKit based GUI for SVGO - tool for optimizing SVG vector graphics files",
   "keywords": [ "svgo", "svg", "optimize", "minify" ],
   "maintainers":[{
@@ -25,8 +25,8 @@
     "toolbar": false,
     "resizable": true,
     "fullscreen": false,
-    "width": 380,
-    "min_width": 380,
+    "width": 400,
+    "min_width": 400,
     "height": 280,
     "min_height": 280
   }
