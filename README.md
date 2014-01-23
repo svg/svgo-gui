@@ -7,7 +7,7 @@
 ## Download and use
 
 * Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B)
-* Windows – will be updated soon
+* Windows – [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL)
 * Linux – need a maintainer
 
 ## [How to contribute and build](https://github.com/svg/svgo-gui/blob/master/docs/how-to-contribute-and-build/en.md)
