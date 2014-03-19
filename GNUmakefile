@@ -1,5 +1,11 @@
 NODE-WEBKIT=v0.8.4
 
+# Linux 32 & 64 bits support
+ARCH := $(shell getconf LONG_BIT)
+VER_32 := ia32
+VER_64 := x64
+VER := $(VER_$(ARCH))
+
 .PHONY: osx
 osx:
 	@rm -rf osx/svgo-gui.app
@@ -21,19 +27,20 @@ osx:
 	@echo done!
 	@echo osx/svgo-gui.app is ready, changes in ./app.nw/ will automatically it.
 
+
 .PHONY: linux
 linux:
 	@rm -rf linux/
 	@echo downloading node-webkit engine…
-	@curl -sSO http://s3.amazonaws.com/node-webkit/${NODE-WEBKIT}/node-webkit-${NODE-WEBKIT}-linux-ia32.tar.gz
+	@curl -sSO http://s3.amazonaws.com/node-webkit/${NODE-WEBKIT}/node-webkit-${NODE-WEBKIT}-linux-${VER}.tar.gz
 	@echo unpacking, renaming and copying files…
 	@mkdir linux
-	@cd linux; tar -xvf ../node-webkit-${NODE-WEBKIT}-linux-ia32.tar.gz --strip 1 > /dev/null 2>&1
-	@rm node-webkit-${NODE-WEBKIT}-linux-ia32.tar.gz
+	@cd linux; tar -xvf ../node-webkit-${NODE-WEBKIT}-linux-${VER}.tar.gz --strip 1 > /dev/null 2>&1
+	@rm node-webkit-${NODE-WEBKIT}-linux-${VER}.tar.gz
 	@echo installing svgo module…
 	@cd app.nw/; npm install > /dev/null 2>&1
 	@echo making application…
-	@cd app.nw/; zip -0yrq ../linux/app.nw *.* node_modules/
+	@cd app.nw/; zip -0yrq ../linux/app.nw *.* node_modules/; cd ..
 	@cat linux/nw linux/app.nw > linux/svgo-gui
 	@chmod +x linux/svgo-gui
 	@rm linux/libffmpegsumo.so linux/nw linux/app.nw
