@@ -12,3 +12,6 @@ npm-debug.log
 *.app
 .DS_Store
 win
+cache
+node_modules
+*.iml
