@@ -1,20 +1,21 @@
 {
   "name": "svgo-gui",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/rejas/svgo-gui/master/LICENSE"
+    }
+  ],
+  "repository": [
+    {
+      "type": "git",
+      "url": "git://github.com/rejas/svgo-gui.git"
+    }
+  ],
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-node-webkit-builder": "^1.0.2",
+    "grunt-nw-builder": "^2.0.0",
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.2"
-  },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://raw.github.com/rejas/svgo-gui/master/LICENSE"
-  }],
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/rejas/svgo-gui.git"
-  }],
-  "dependencies": {
-    "svgo": "^0.5.2"
   }
 }

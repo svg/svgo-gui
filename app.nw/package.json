@@ -8,7 +8,7 @@
     "email": "kir@soulshine.in",
     "web": "https://github.com/svg"
   }],
-  "repositories": [{
+  "repository": [{
     "type": "git",
     "url": "git://github.com/svg/svgo-gui.git"
   }],
@@ -18,7 +18,7 @@
     "url": "https://raw.github.com/svg/svgo-gui/master/LICENSE"
   }],
   "dependencies": {
-    "svgo": ""
+    "svgo": "^0.5.3"
   },
   "main": "index.html",
   "window": {
