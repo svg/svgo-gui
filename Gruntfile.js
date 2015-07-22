@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         nwjs: {
             options: {
                 mac_icns: './osx/app.icns',
-                platforms: ['osx'],
+                platforms: ['osx', 'win'],
                 buildDir: './dist' // Where the build version of my node-webkit app is saved
             },
             files: {
