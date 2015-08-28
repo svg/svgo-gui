@@ -27,7 +27,7 @@
     }
   ],
   "dependencies": {
-    "svgo": "^0.5.3"
+    "svgo": "^0.5.6"
   },
   "main": "index.html",
   "window": {
