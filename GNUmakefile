@@ -4,7 +4,7 @@ NODE-WEBKIT=v0.8.4
 osx:
 	@rm -rf osx/svgo-gui.app
 	@echo downloading node-webkit engine…
-	@curl -sSO http://s3.amazonaws.com/node-webkit/${NODE-WEBKIT}/node-webkit-${NODE-WEBKIT}-osx-ia32.zip
+	@curl -sSO http://dl.node-webkit.org/${NODE-WEBKIT}/node-webkit-${NODE-WEBKIT}-osx-ia32.zip
 	@echo unpacking, renaming and copying files…
 	@unzip -qq node-webkit-${NODE-WEBKIT}-osx-ia32.zip
 	@rm node-webkit-${NODE-WEBKIT}-osx-ia32.zip nwsnapshot credits.html
