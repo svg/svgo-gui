@@ -8,7 +8,7 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-nw-builder": "^2.0.0",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.2"
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.1"
   }
 }
