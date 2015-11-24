@@ -1,5 +1,6 @@
 {
   "name": "svgo-gui",
+  "version": "0.6.1",
   "license": "MIT",
   "repository": {
     "type": "git",
