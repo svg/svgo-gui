@@ -7,10 +7,11 @@ module.exports = function (grunt) {
     grunt.initConfig({
         nwjs: {
             options: {
-                version: '0.12.3',
-                mac_icns: './osx/app.icns',
+                buildDir: './dist',
+                macIcns: './osx/app.icns',
                 platforms: ['osx', 'win'],
-                buildDir: './dist'
+                version: '0.12.3',
+                zip: true
             },
             files: {
                 dot: true,
