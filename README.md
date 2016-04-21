@@ -1,16 +1,18 @@
-## SVGO GUI v0.0.9
+## SVGO GUI v0.6.4
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
-![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/1.png)&nbsp;&nbsp;![Mac OSX X screenshot](https://raw.github.com/svg/svgo-gui/master/screenshots/2.png)
+## How to build yourself (new versions)
 
-## Download and use
+1. `cd <YOUR FORK>`
+2. `grunt`
+3. final builds will be in the 'dist'-folder in platform specific subdirectories
+
+## Download and use (old versions)
 
 * Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B)
 * Windows – [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL)
 * Linux – need a maintainer
-
-## [How to contribute and build](https://github.com/svg/svgo-gui/blob/master/docs/how-to-contribute-and-build/en.md)
 
 ## License and copyrights
 
