@@ -1,4 +1,4 @@
-## SVGO GUI v0.6.4
+## SVGO GUI v0.6.6
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
@@ -7,6 +7,9 @@
 1. `cd <YOUR FORK>`
 2. `grunt`
 3. final builds will be in the 'dist'-folder in platform specific subdirectories
+
+## Download and use (new versions)
+* [Download the zip](https://github.com/rejas/svgo-gui/archive/master.zip) or clone the repo, and use the appropriate build from /dist/ folder. Linux builds not available.
 
 ## Download and use (old versions)
 
