@@ -8,14 +8,14 @@
 2. `grunt`
 3. final builds will be in the 'dist'-folder in platform specific subdirectories
 
-## Download and use (new versions)
-* [Download the zip](https://github.com/rejas/svgo-gui/archive/master.zip) or clone the repo, and use the appropriate build from /dist/ folder. Linux builds not available.
+## Download and use (new versions, 64bit only)
+* [Download the zip](https://github.com/rejas/svgo-gui/archive/master.zip) or clone the repo, and use the appropriate build from /dist/ folder. Linux builds are also available but untested.
 
-## Download and use (old versions)
+## Download and use (old versions, 32bit)
 
 * Mac OS X [svgo-gui-osx-ia32.7z](http://goo.gl/0Qu9B)
 * Windows – [svgo-gui-win-ia32.7z](http://goo.gl/zuPkL)
-* Linux – need a maintainer
+* Linux – not available
 
 ## License and copyrights
 

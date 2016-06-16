@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             options: {
                 buildDir: './dist',
                 macIcns: './osx/app.icns',
-                platforms: ['osx', 'win'],
+                platforms: ['osx64', 'win64', 'linux64'],
                 version: '0.12.3',
                 zip: true
             },
