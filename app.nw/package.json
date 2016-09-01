@@ -1,6 +1,6 @@
 {
   "name": "svgo-gui",
-  "version": "0.6.6",
+  "version": "0.7.0",
   "description": "Node-WebKit based GUI for SVGO - tool for optimizing SVG vector graphics files",
   "keywords": [
     "svgo",
@@ -22,16 +22,16 @@
   "bugs": "https://github.com/svg/svgo-gui/issues",
   "license": "MIT",
   "dependencies": {
-    "svgo": "^0.6.6"
+    "svgo": "^0.7.0"
   },
   "main": "index.html",
   "window": {
     "toolbar": false,
     "resizable": true,
     "fullscreen": false,
-    "width": 400,
+    "width": 600,
     "min_width": 400,
-    "height": 280,
+    "height": 480,
     "min_height": 280
   }
 }

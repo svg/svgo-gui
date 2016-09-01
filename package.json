@@ -1,6 +1,6 @@
 {
   "name": "svgo-gui",
-  "version": "0.6.6",
+  "version": "0.7.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-nw-builder": "^2.0.3",
-    "load-grunt-tasks": "^3.5.0",
+    "grunt-nw-builder": "^3.0.0",
+    "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
   }
 }
