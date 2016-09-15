@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BreakpadProduct</key>
+	<string>nwjs_Mac</string>
+	<key>BreakpadProductDisplay</key>
+	<string>nwjs</string>
+	<key>BreakpadReportInterval</key>
+	<string>3600</string>
+	<key>BreakpadSendAndExit</key>
+	<string>YES</string>
+	<key>BreakpadSkipConfirm</key>
+	<string>YES</string>
+	<key>BreakpadURL</key>
+	<string>none</string>
+	<key>BreakpadVersion</key>
+	<string>53.0.2785.113</string>
+	<key>BuildMachineOSBuild</key>
+	<string>14D136</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>nwjs Framework</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.nwjs.nwjs.framework</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>53.0.2785.113</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2785.113</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTSDKBuild</key>
+	<string>10.10</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0631</string>
+	<key>DTXcodeBuild</key>
+	<string>6D1002</string>
+	<key>SCMRevision</key>
+	<string>8e30c84d76b424a5e883ebb928154a287b3e2988</string>
+</dict>
+</plist>

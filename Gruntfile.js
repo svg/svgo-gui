@@ -8,9 +8,10 @@ module.exports = function (grunt) {
         nwjs: {
             options: {
                 buildDir: './dist',
+                flavor: 'normal',
                 macIcns: './osx/app.icns',
                 platforms: ['osx64', 'win64', 'linux64'],
-                version: '0.12.3',
+                version: 'latest',
                 zip: true
             },
             files: {
