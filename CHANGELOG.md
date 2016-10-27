@@ -1,4 +1,8 @@
-### [ [>](//github.com/svg/svgo-gui/tree/v0.0.9) ] 0.0.9 / 14.01.2014
+### 0.7.1 / 27.10.2016
+* SVGO v0.7.1
+* Node-WebKit v0.18.3
+
+### 0.0.9 / 14.01.2014
 * SVGO v0.4.4
 * Node-WebKit v0.8.4
 

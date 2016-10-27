@@ -1,6 +1,6 @@
 {
   "name": "svgo-gui",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Node-WebKit based GUI for SVGO - tool for optimizing SVG vector graphics files",
   "keywords": [
     "svgo",
