@@ -22,7 +22,7 @@
   "bugs": "https://github.com/svg/svgo-gui/issues",
   "license": "MIT",
   "dependencies": {
-    "svgo": "^0.7.0"
+    "svgo": "^0.7.1"
   },
   "main": "index.html",
   "window": {
