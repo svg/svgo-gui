@@ -1,4 +1,4 @@
-## SVGO GUI v0.6.6
+## SVGO GUI v0.7.1
 
 [Node-WebKit](https://github.com/rogerwang/node-webkit) based GUI for [SVGO](https://github.com/svg/svgo).
 
