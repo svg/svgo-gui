@@ -18,10 +18,46 @@ module.exports = function (grunt) {
                 dot: true,
                 src: ['./app.nw/**/*']
             }
+        },
+        compress: {
+            linux: {
+                options: {
+                    archive: './dist/linux.zip'
+                },
+                files: [{
+                    expand: true,
+                    cwd: './dist/svgo-gui/linux64/',
+                    src: ['**/*'],
+                    dest: '/svgo-gui'
+                }]
+            },
+            mac: {
+                options: {
+                    archive: './dist/mac.zip'
+                },
+                files: [{
+                    expand: true,
+                    cwd: './dist/svgo-gui/osx64/',
+                    src: ['**/*'],
+                    dest: '/svgo-gui'
+                }]
+            },
+            win: {
+                options: {
+                    archive: './dist/win.zip'
+                },
+                files: [{
+                    expand: true,
+                    cwd: './dist/svgo-gui/win64/',
+                    src: ['**/*'],
+                    dest: '/svgo-gui'
+                }]
+            }
         }
     });
 
     grunt.registerTask('default', [
-        'nwjs'
+        'nwjs',
+        'compress'
     ]);
 };
